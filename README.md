@@ -2,16 +2,16 @@
 
 A modern web application that monitors your Cursor AI usage in real-time and sends browser notifications when spending increases, so you never get surprised by unexpected charges.
 
-## ✨ Features
+## Features
 
-- 🔔 **Smart Session Tracking**: Only tracks spending from your current coding session
-- 📊 **Real-time Dashboard**: Live charts and spending history with dark theme
-- 🚨 **Browser Notifications**: Desktop alerts when spending increases above your threshold
-- 🔕 **Snooze Notifications**: Temporarily disable alerts (15min, 30min, 1hr, 2hr)
-- 🎯 **Configurable Thresholds**: Set custom spending increase alerts (e.g., $0.50+)
-- 📱 **Modern UI**: Clean, responsive interface with live status indicators
-- 🔒 **Client-side Only**: No data leaves your browser - completely private
-- ⚡ **Instant Setup**: 3-step wizard with demo video
+- **Smart Session Tracking**: Only tracks spending from your current coding session
+- **Real-time Dashboard**: Live charts and spending history with dark theme
+- **Browser Notifications**: Desktop alerts when spending increases above your threshold
+- **Snooze Notifications**: Temporarily disable alerts (15min, 30min, 1hr, 2hr)
+- **Configurable Thresholds**: Set custom spending increase alerts (e.g., $0.50+)
+- **Modern UI**: Clean, responsive interface with live status indicators
+- **Client-side Only**: No data leaves your browser - completely private
+- **Instant Setup**: 3-step wizard with demo video
 
 ## 🚀 Quick Start
 
