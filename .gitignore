@@ -32,4 +32,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts cursor_monitor_config.json
+cursor_monitor_state.json
+*.log
