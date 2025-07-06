@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/@geist-ui/core@latest/umd/geist-ui.min.css');
 
 @tailwind base;
@@ -7,7 +6,6 @@
 
 /* Import Geist Mono */
 @import url('https://cdn.jsdelivr.net/npm/@geist-ui/core@latest/umd/geist-ui.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 :root {
   --foreground-rgb: 229, 229, 229;
@@ -61,7 +59,7 @@ body::after {
 }
 
 .silkscreen-regular {
-    font-family: "Silkscreen", sans-serif;
+    font-family: 'Silkscreen', sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -72,4 +70,27 @@ body::after {
   display: inline-block;
   font-family: 'Silkscreen', sans-serif; /* pixel-style square font */
   font-size: 2.5rem;
+}
+
+/* Fallback pixel-style title for when Silkscreen doesn't load */
+@supports not (font-family: 'Silkscreen') {
+  .app-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Alternative pixel-style class that always works */
+.pixel-title-fallback {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 2.5rem;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
 } 
