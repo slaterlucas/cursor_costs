@@ -1,0 +1,10 @@
+requests>=2.25.0
+
+# Optional desktop notifications on macOS
+pync>=2.0
+
+# Optional: for desktop notifications on macOS
+# Install with: pip install 'plyer[macos]'
+# Or just: pip install plyer pyobjus (for macOS)
+plyer>=2.0.0
+pyobjus>=1.2.0; sys_platform == "darwin" 
